@@ -51,9 +51,8 @@ export default {
     },
     closest() {
       // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-      return this.cryptoData
-        .sort((a, b) => a.prediction - b.prediction)
-        .find(g => g.prediction >= this.info.rate_float);
+      return this.cryptoData.sort((a, b) => a.prediction - b.prediction);
+      // .find(g => g.prediction >= this.info.rate_float);
     }
   },
   mounted() {
