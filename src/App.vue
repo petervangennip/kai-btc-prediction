@@ -19,7 +19,7 @@
               <th>Name</th>
               <th>Price prediction</th>
             </tr>
-            <tr v-for="(member, i) in cryptoData" :key="i">
+            <tr v-for="(member, i) in closestPrediction" :key="i">
               <!-- <td :class="{ active: member.name === closest.name }"> -->
               <td>
                 {{ member.name }}
@@ -49,7 +49,7 @@ export default {
     cryptoData() {
       return this.$store.state.appData;
     },
-    closest() {
+    closestPrediction() {
       // eslint-disable-next-line vue/no-side-effects-in-computed-properties
       return this.cryptoData.sort((a, b) => a.prediction - b.prediction);
       // .find(g => g.prediction >= this.info.rate_float);
