@@ -1,0 +1,12 @@
+:root {
+  --btn-font-family: 'IBM Plex Sans', sans-serif;
+  --btn-font-size: var(--font-size-base);
+  --btn-font-weight: var(--font-weight-normal);
+  --btn-font-color: var(--color-white);
+
+  --btn-padding: var(--space-8) var(--space-16);
+  --btn-border-radius: 4px;
+
+  --btn-bgcolor-primary: var(--color-green);
+  --btn-bgcolor-secondary: var(--color-blue);
+}

@@ -1,0 +1,14 @@
+@custom-media --dark-mode (prefers-color-scheme: dark);
+@custom-media --portrait (orientation: portrait);
+@custom-media --landscape (orientation: landscape);
+
+/* mobile first */
+@custom-media --viewport-sm (min-width: 540px);
+@custom-media --viewport-md (min-width: 720px);
+@custom-media --viewport-lg (min-width: 960px);
+@custom-media --viewport-xl (min-width: 960px);
+
+@custom-media --viewport-sm-down (max-width: 540px);
+@custom-media --viewport-md-down (max-width: 720px);
+@custom-media --viewport-lg-down (max-width: 960px);
+@custom-media --viewport-xl-down (max-width: 960px);

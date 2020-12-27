@@ -1,0 +1,20 @@
+:root {
+  --space: 1rem; /* Default spacing value: 16px */
+
+  --space-2: calc(var(--space) * 0.125); // 2px
+  --space-4: calc(var(--space) * 0.25); // 4px
+  --space-8: calc(var(--space) * 0.5); // 8px
+  --space-12: calc(var(--space) * 0.75); // 12px
+  --space-16: calc(var(--space)); // 16px
+  --space-20: calc(var(--space) * 1.25); // 20px
+  --space-24: calc(var(--space) * 1.5); // 24px
+  --space-28: calc(var(--space) * 1.75); // 28px
+  --space-32: calc(var(--space) * 2); // 32px
+  --space-40: calc(var(--space) * 2.5); // 40px
+  --space-48: calc(var(--space) * 3); // 48px
+  --space-50: calc(var(--space) * 3.125); // 50px
+  --space-56: calc(var(--space) * 3.5); // 56px
+  --space-64: calc(var(--space) * 4); // 64px
+  --space-80: calc(var(--space) * 5); // 80px
+  --space-100: calc(var(--space) * 6.26); // 100px
+}

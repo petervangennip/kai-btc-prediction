@@ -1,7 +1,10 @@
-import { createStore } from "vuex";
+import { createStore } from 'vuex';
+import Data from './../state/state.json';
 
 export default createStore({
-  state: {},
+  state: {
+    appData: Data
+  },
   mutations: {},
   actions: {},
   modules: {}

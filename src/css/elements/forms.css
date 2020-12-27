@@ -1,0 +1,19 @@
+.form {
+  &-group {
+    margin-bottom: var(--space-8);
+  }
+
+  &-control {
+    display: flex;
+    flex: 1;
+
+    padding: var(--space-4) var(--space-8);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray);
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}

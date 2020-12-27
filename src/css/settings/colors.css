@@ -1,0 +1,26 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-gray-100: #f8f9fa;
+  --color-gray-300: #e9ecef;
+  --color-gray: #ced4da;
+  --color-gray-500: #adb5bd;
+  --color-gray-700: #6c757d;
+
+  --color-blue: #1d5dfa;
+  --color-purple: #eb33eb;
+  --color-salmon: #eb5777;
+  --color-yellow: #ffd342;
+  --color-lime: #00e776;
+  --color-green: #27a95a;
+  --color-pink: #ff85b4;
+
+  --color-bluebirdday: var(--color-blue);
+  --color-boldlyxr: var(--color-purple);
+  --color-esites: var(--color-salmon);
+  --color-fingerspitz: var(--color-yellow);
+  --color-tde: var(--color-lime);
+  --color-twentyseven: var(--color-green);
+  --color-weekend: var(--color-pink);
+}
