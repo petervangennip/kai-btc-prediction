@@ -20,6 +20,7 @@
               <th>Price prediction</th>
             </tr>
             <tr v-for="(member, i) in cryptoData" :key="i">
+              <!-- <td :class="{ active: member.name === closest.name }"> -->
               <td>
                 {{ member.name }}
               </td>
